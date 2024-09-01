@@ -7,7 +7,7 @@ const WelComePage = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/src/Components/HomePage/HomePage.jsx");
+    navigate("/home");
   };
   return (
     <div>

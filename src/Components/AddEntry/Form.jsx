@@ -28,7 +28,7 @@ const AddForm = ({ onSubmit, initialData }) => {
     e.preventDefault();
     onSubmit(formData);
     setFormData({ title: "", date: "", img: "" });
-    navigate("/src/Components/ViewEntry/ViewEntry.jsx");
+    navigate("/view-entry");
   };
   const handleFileChange = (e) => {
     setFormData({ ...formData, img: e.target.files[0] });

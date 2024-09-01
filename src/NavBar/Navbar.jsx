@@ -9,23 +9,17 @@ const Navigation = () => {
         <NavbarBrand href="navbar-brand">My Travel Journal Dairy</NavbarBrand>
         <Nav>
           <NavItem className="navitem">
-            <Link
-              className="nav-link"
-              to="/src/Components/HomePage/HomePage.jsx"
-            >
+            <Link className="nav-link" to="/home">
               Home
             </Link>
           </NavItem>
           <NavItem className="navitem">
-            <Link className="nav-link" to="/src/Components/AddEntry/Form.jsx">
+            <Link className="nav-link" to="/add-entry">
               Add Entry
             </Link>
           </NavItem>
           <NavItem className="navitem">
-            <Link
-              className="nav-link"
-              to="/src/Components/ViewEntry/ViewEntry.jsx"
-            >
+            <Link className="nav-link" to="/view-entry">
               View Entry
             </Link>
           </NavItem>

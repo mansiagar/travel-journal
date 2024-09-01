@@ -42,23 +42,20 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<WelComePage />} />
-        <Route
-          path="/src/Components/HomePage/HomePage.jsx"
-          element={<HomePage entries={entries} />}
-        />
+        <Route path="/home" element={<HomePage entries={entries} />} />
         {/* <Route
           path="/src/Components/AddEntry/AddEntry.jsx"
           element={<AddEntry />}
         /> */}
 
         <Route
-          path="/src/Components/AddEntry/Form.jsx"
+          path="/add-entry"
           element={
             <AddForm onSubmit={handleFormSubmit} initialData={currentEntry} />
           }
         />
         <Route
-          path="/src/Components/ViewEntry/ViewEntry.jsx"
+          path="//view-entry"
           element={
             <ViewEntry
               entries={entries}
