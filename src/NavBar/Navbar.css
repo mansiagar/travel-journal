@@ -1,0 +1,11 @@
+.navitem .nav-link {
+  color: white; /* Ensure this color is applied */
+  font-size: x-large;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.navbar-brand {
+  font-size: x-large;
+  letter-spacing: 2px;
+  font-weight: 500;
+}

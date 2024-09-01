@@ -1,0 +1,10 @@
+/* Crousal.css */
+.carousel-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: auto;
+}
